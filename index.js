@@ -1,7 +1,7 @@
 const FILE_PATH = process.env.FILE_PATH || './temp'; // 运行文件夹，节点文件存放目录
 const projectPageURL = process.env.URL || '';        // 填写项目域名可开启自动访问保活，非标端口的前缀是http://
 const intervalInseconds = process.env.TIME || 120;   // 自动访问间隔时间（120秒）
-const UUID = process.env.UUID || '1ba349ef-a25e-40f0-96ad-dc81764fd7aa';
+const UUID = process.env.UUID || 'c2a354e0-2549-4700-b092-604e61299cbd';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nezha.97553557.cf';     // 哪吒3个变量不全不运行
 const NEZHA_PORT = process.env.NEZHA_PORT || '443';              // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一时开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || 'NyMu9i4IT67PcZryOg';                    // 哪吒客户端密钥
